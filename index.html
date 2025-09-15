@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión PyME</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Gestión PyME</h1>
+            <nav>
+                <button class="nav-btn active" data-module="pos">POS</button>
+                <button class="nav-btn" data-module="inventario">Inventario</button>
+                <button class="nav-btn" data-module="gastos">Gastos</button>
+                <button class="nav-btn" data-module="clientes">Clientes</button>
+            </nav>
+        </header>
+
+        <main id="main-content">
+            <!-- Content will be loaded dynamically -->
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/pos.js"></script>
+    <script src="js/inventario.js"></script>
+    <script src="js/gastos.js"></script>
+    <script src="js/clientes.js"></script>
+</body>
+</html>
